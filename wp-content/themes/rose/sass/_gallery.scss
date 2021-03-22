@@ -1,0 +1,44 @@
+.gallery  {
+	margin-right: -10px;
+	margin-left: -10px;
+
+	&:before,&:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+
+	.gallery-item {
+		margin-bottom: 20px;
+		margin-top: 0 !important;
+		padding-left: 10px;
+		padding-right: 10px;
+		position: relative;
+		overflow: hidden;
+
+		.gallery-caption {
+			position: absolute;
+			left: 10px; right: 10px;
+			bottom: 0;
+			background-color: rgba(#fff,0.7);
+			padding: 10px;
+			font-style: italic;
+			@extend .c-title;
+			@extend .s-font;
+			@include translate(0, 100%);
+			@include transition();
+		}
+
+		img {
+			width: 100%;
+			border-width: 0 !important;
+			margin: 0;
+		}
+
+		&:hover {
+			.gallery-caption {
+				@include translate(0, 0);
+			}
+		}
+	}
+}

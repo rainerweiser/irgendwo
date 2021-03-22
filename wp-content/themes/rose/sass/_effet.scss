@@ -1,0 +1,378 @@
+.effet-push-bottom,
+.effet-move-top {
+
+    .portfolio-item {
+        .caption {
+            @include translate(0, -100%);
+        }
+    }
+}
+
+.effet-push-top,
+.effet-move-bottom {
+    .portfolio-item {
+        .caption {
+            @include translate(0, 100%);
+        }
+    }
+}
+.effet-push-left,
+.effet-move-right {
+    .portfolio-item {
+        .caption {
+            @include translate(-100%, 0);
+        }
+    }
+}
+.effet-push-right,
+.effet-move-left {
+
+    .portfolio-item {
+        .caption {
+            @include translate(100%, 0);
+        }
+    }
+}
+.effet-classic,
+.effet-fade,
+.effet-hoverdir,
+.effet-slide-bottom-2,
+.effet-img-thumb,
+.effet-zoom-in,
+.effet-flip-y,
+.effet-flip-x,
+.effet-slide-top,
+.effet-slide-right,
+.effet-slide-bottom,
+.effet-slide-left,
+.effet-push-top,
+.effet-push-right,
+.effet-push-bottom,
+.effet-push-left,
+.effet-move-top,
+.effet-move-right,
+.effet-move-bottom,
+.effet-move-left {
+
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        padding: 0 !important;
+        z-index: 9;
+        .effet-caption-outer {
+            overflow: hidden;
+            z-index: 9;
+        }
+        .img {
+            z-index: auto !important;
+        }
+        .caption {
+            position: absolute;
+            background-color: rgba(#fff, 0.7);
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9;
+            overflow: hidden;
+            @include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        }
+    }
+}
+.effet-classic {
+    .portfolio-item {
+        .caption {
+            display: none;
+        }
+        &:hover {
+            .caption {
+                display: block;
+            }
+        }
+    }
+}
+.effet-fade {
+    .portfolio-item {
+        .caption {
+            opacity: 0;
+            visibility: hidden;
+        }
+        &:hover {
+            .caption {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+.effet-push-top,
+.effet-push-right,
+.effet-push-bottom,
+.effet-push-left,
+.effet-move-top,
+.effet-move-right,
+.effet-move-bottom,
+.effet-move-left {
+    .portfolio-item {
+        &:hover {
+            .caption {
+                @include translate(0, 0);
+            }
+        }
+    }
+}
+
+.effet-push-top,
+.effet-push-right,
+.effet-push-bottom,
+.effet-push-left {
+
+    .portfolio-item {
+        .img {
+            @include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        }
+        &:hover {
+            .caption {
+                @include translate(0, 0);
+            }
+        }
+    }
+}
+.effet-push-top {
+
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(0, -100%);
+            }
+        }
+    }
+}
+.effet-push-bottom {
+
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(0, 100%);
+            }
+        }
+    }
+}
+.effet-push-left {
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(100%, 0);
+            }
+        }
+    }
+}
+.effet-push-right {
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(-100%, 0);
+            }
+        }
+    }
+}
+.effet-flip-y,
+.effet-flip-x {
+
+    .portfolio-item {
+        overflow: visible;
+        -webkit-perspective: 0;
+        .effet-caption-outer {
+            overflow: visible !important;
+        }
+        .caption,
+        .img {
+            @include backface-visibility(hidden);
+            @include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        }
+    }
+}
+.effet-flip-y {
+    .portfolio-item {
+        .img {
+            @include transform(perspective(200em) rotateY(0));
+        }
+        .caption {
+            @include transform(perspective(200em) rotateY(180deg));
+        }
+        &:hover {
+            .img {
+                @include transform(perspective(200em) rotateY(-180deg));
+            }
+            .caption {
+                z-index: 9;
+                @include transform(perspective(200em) rotateY(0));
+            }
+        }
+    }
+}
+.effet-flip-x {
+    .portfolio-item {
+        .img {
+            @include transform(perspective(200em) rotateX(0));
+        }
+        .caption {
+            @include transform(perspective(200em) rotateX(-180deg));
+        }
+        &:hover {
+            .img {
+                @include transform(perspective(200em) rotateX(180deg));
+            }
+            .caption {
+                z-index: 9;
+                @include transform(perspective(200em) rotateX(0));
+            }
+        }
+    }
+}
+
+.effet-slide-top,
+.effet-slide-right,
+.effet-slide-bottom,
+.effet-slide-left {
+
+    .portfolio-item {
+        .img {
+            @include translate(0, 0);
+            @include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        }
+        .caption {
+            z-index: -1;
+        	> * {
+        		opacity: 0;
+        		@include scale(0.6);
+            	@include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        	}
+        }
+        &:hover {
+            .caption {
+                > * {
+                    opacity: 1;
+                    @include scale(1);
+                }
+            }
+        }
+    }
+}
+.effet-slide-top {
+
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(0, -100%);
+            }
+        }
+    }
+}
+.effet-slide-right {
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(100%, 0);
+            }
+        }
+    }
+}
+.effet-slide-bottom {
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(0, 100%);
+            }
+        }
+    }
+}
+.effet-slide-left {
+    .portfolio-item {
+        &:hover {
+            .img {
+                @include translate(-100%, 0);
+            }
+        }
+    }
+}
+
+.effet-zoom-in {
+    .portfolio-item {
+    	.caption {
+    		opacity: 0;
+    		@include scale(0);
+    	}
+    	&:hover {
+    		.caption {
+    			opacity: 1;
+    			@include scale(1);
+    		}
+    	}
+    }
+}
+
+.effet-img-thumb {
+    .portfolio-item {
+        .img {
+            @include translate(0, 0);
+            @include transform-origin(50% 50%);
+            @include transition(all 600ms cubic-bezier(0.165, 0.775, 0.145, 1.02));
+        }
+        .caption {
+            z-index: -1;
+        }
+        &:hover {
+            .img {
+                opacity: 0;
+                @include transform(scale(.2));
+            }
+            .caption {
+            }
+        }
+    }
+}
+
+.effet-slide-bottom-2 {
+
+    .portfolio-item {
+
+        .caption {
+            top: 100%;
+            margin-top: -90px;
+            .el-text {
+                vertical-align: top;
+                padding: 10px 45px;
+            }
+        }
+        &:hover {
+            .caption {
+                top: 0;
+                margin-top: 0;
+                .el-text {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
+.effet-hoverdir {
+
+    .portfolio-item {
+        
+        .caption {
+            top: 0;
+            left: 100%;
+            right: auto;
+            width: 100%;
+            @include transition(none);
+        }
+
+        &:hover {
+            .caption {
+                left: 0;
+            }
+        }
+    }
+}

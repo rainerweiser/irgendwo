@@ -1,0 +1,6 @@
+Rose 1.1
+Added: Google Font, Caption Image for project, set no sidebar for single project
+Fixed: Vimeo icon
+Rose 1.1.2
+Bugs Fixed: Wiloke Mailchimp Widget, Rose Portfolio Shortcode
+Rose 1.3.5: Now you can add a description for team member. Team -> Add Member -> Enter text into textarea

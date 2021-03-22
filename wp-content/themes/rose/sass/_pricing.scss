@@ -1,0 +1,90 @@
+.pricing-item {
+	overflow: hidden;
+	border: 1px solid #eeeeee;
+
+	h2 {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin: 0;
+		line-height: 68px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.price {
+		display: block;
+		line-height: 1;
+		padding: 30px 10px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		margin-bottom: 35px;
+		background-color: #f9f9f9;
+		@extend .s-font;
+		@include transition();
+
+		.money {
+			font-size: 48px;
+			text-transform: uppercase;
+		}
+
+		.unit {
+			font-style: italic;
+			letter-spacing: 0.07em;
+
+			&:before {
+				content: '/';
+				margin: 0 7px;
+			}
+		}
+	}
+
+	.color-black {
+
+		.money, .unit:before {
+			color: #000;
+		}
+	}
+
+	.color-white {
+
+		.money, .unit:before, .unit {
+			color: #fff;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 30px 0;
+		overflow: hidden;
+
+		li {
+			display: block;
+			border-bottom: 1px solid #eee;
+			padding: 13px 10px;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+
+	.button {
+		margin-bottom: 40px;
+	}
+
+	&.highlights {
+		.price  {
+			color: #fff;
+			@extend .bg-hover;
+		}
+
+		.button {
+			background-color: #000;
+			color: #fff;
+			border-color: #000;
+		}
+	}
+}

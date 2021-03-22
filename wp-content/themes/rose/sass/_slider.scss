@@ -1,0 +1,31 @@
+.slider {
+
+	.page-header {
+		height: 595px;
+	}
+
+	@media (max-width: 1199px) {
+		.page-header {
+			height: 550px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.page-header {
+			height: 450px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.page-header {
+			height: 400px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.page-header {
+			height: 350px;
+		}
+	}
+
+}

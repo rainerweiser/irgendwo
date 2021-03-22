@@ -1,0 +1,169 @@
+#comments {
+	border-top: 1px solid #eee;
+}
+
+#comments-title,
+.comment-reply-title {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 13px;
+
+	span {
+		@extend .s-font;
+		font-style: italic;
+		letter-spacing: 0;
+		margin-left: 5px;
+		font-weight: normal;
+	}
+
+	a {
+	    font-size: 10px;
+    	margin: 0 10px;
+	}
+}
+
+.commentlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	.comment {
+		padding-left: 80px;
+		position: relative;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #eee;
+
+		.avatar {
+			width: 55px;
+			position: absolute;
+			top: 0; left: 0;
+		}
+
+		.comment-body {
+
+			.fn {
+				font-weight: 700;
+				@extend .c-title;
+				font-size: 12px;
+				font-style: normal;
+				display: block;
+				letter-spacing: 0.1em;
+				margin-bottom: 3px;
+
+				a {
+					color: inherit;
+					text-decoration: none;
+				}
+			}
+
+			.comment-date {
+				display: block;
+				@extend .s-font;
+				font-style: italic;
+				font-size: 13px;
+				margin-bottom: 10px;
+				letter-spacing: 0.1em;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			.comment-edit-reply {
+				font-size: 13px;
+				@extend .c-content;
+
+				a {
+					color: inherit;
+					text-decoration: none;
+					font-style: italic;
+					position: relative;
+					letter-spacing: 0.1em;
+					@extend .s-font;
+					@include transition();
+					
+					&:hover {
+						@extend .c-hover;
+					}
+				}
+			}
+		}
+
+		.children {
+			padding: 0;
+			margin: 30px 0 0 0;
+			list-style: none;
+
+			li {
+				&:last-child {
+					border-bottom: 0;
+					padding-bottom: 0;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.comment-respond {
+	
+	.comment-form {
+
+		.form-item {
+			margin-bottom: 30px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			input[type="text"],
+			input[type="email"],
+			input[type="url"] {
+				width: 100%;
+				border: 1px solid #eee;
+				height: 40px;
+				line-height: 40px;
+				padding: 0 15px;
+				font-weight: 300;
+				outline: none;
+				@include transition();
+
+				&:focus {
+					border-color: #000;
+					color: #000;
+				}
+			}
+
+			textarea {
+				width: 100%;
+				border: 1px solid #eee;
+				padding: 15px 15px;
+				outline: none;
+				height: 130px;
+				vertical-align: top;
+				resize: vertical;
+				@include transition();
+
+				&:focus {
+					border-color: #000;
+					color: #000;
+				}
+			}
+
+			.button {
+				border: 1px solid #ccc;
+				background-color: #fff;
+				padding: 0 20px;
+				text-align: center;
+				min-width: 160px;
+				@include transition();
+
+				&:hover {
+					background-color: #000;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

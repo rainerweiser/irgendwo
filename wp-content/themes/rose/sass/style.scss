@@ -1,0 +1,62 @@
+$font: 'Raleway', sans-serif;
+$sub-font: 'Playfair Display', serif;
+$color: #666;
+$color-title: #000;
+$color-hover: #b9a380;
+
+.f-title {
+	font-family: $font;
+}
+
+.f-content {
+	font-family: $font;
+}
+
+.s-font {
+	font-family: $sub-font;
+}
+
+.c-content {
+	color: $color;
+}
+
+.c-title {
+	color: $color-title;
+}
+
+.c-hover {
+	color: $color-hover;
+}
+
+.bg-hover {
+	background-color: $color-hover;
+}
+
+.b-color-hover {
+	border-color: $color-hover;
+}
+
+@import "mixins";
+@import "margin";
+@import "padding";
+@import "effet";
+@import "reset";
+@import "shortcode";
+@import "grid";
+@import "page";
+@import "header";
+@import "slider";
+@import "blog";
+@import "icon-box";
+@import "404";
+@import "client";
+@import "portfolio";
+@import "team";
+@import "contact";
+@import "pricing";
+@import "testimonial";
+@import "comment";
+@import "skill";
+@import "widget";
+@import "gallery";
+@import "footer";

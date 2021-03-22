@@ -1,0 +1,47 @@
+#header .logo {
+	text-align:left;
+}
+
+.page-header .tb {
+	height:auto;
+}
+
+.logo_font1 {
+    font-family: 'Julius Sans One', 'Source Sans Pro', sans-serif;
+    font-size: 3.5em;
+   /* float: left;*/
+    margin-top: 14px;
+}
+
+.logo_font2 {
+    font-family: 'Julius Sans One', 'Source Sans Pro', sans-serif;
+    color: red;
+    font-size: 1.32em;
+    padding-left: 0.2em;
+}
+
+.aligncenter,
+.alignnone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1281px) {
+    #envirabox-title-outside {
+        border:solid 1px red !important;
+    }
+
+    #envirabox-close {
+        top: 0px !important;
+        right: 32px !important;
+    }
+
+    #envirabox-right {
+        right: 30px !important;
+    }
+
+    #envirabox-left {
+        left: -20px !important;
+    }
+}

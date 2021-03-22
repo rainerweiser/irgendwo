@@ -1,0 +1,23 @@
+.testimonial-item {
+	max-width: 720px;
+	margin: 0 auto;
+	
+	img {
+		border-radius: 50%;
+		vertical-align: top;
+	}
+
+	p {
+		@extend .s-font;
+		font-size: 14px;
+		font-style: italic;
+
+		&:before {
+			content: '“';
+		}
+
+		&:after {
+			content: '”';
+		}
+	}
+}

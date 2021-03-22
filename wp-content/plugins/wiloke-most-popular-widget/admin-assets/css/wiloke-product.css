@@ -1,0 +1,109 @@
+.wiloke-dashboard-cta {
+ display: inline-block;
+ width: 10px;
+ margin-left: 10px;
+ height: 10px;
+ background-color: #00a5ff;
+ border-radius: 50%;
+ position: relative;
+}
+
+.wiloke-dashboard-cta:before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background-color: #00a5ff;
+ border-radius: 50%;
+ animation: wiloke_animate_dashboard 2s linear infinite;
+}
+
+@keyframes wiloke_animate_dashboard {
+ 0% {
+  opacity: 0.5;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+ }
+
+ 50% {
+  opacity: 0;
+  left: -9px;
+  right: -9px;
+  bottom: -9px;
+  top: -9px;
+ }
+
+ 100% {
+  opacity: 0;
+ }
+}
+
+@-webkit-keyframes wiloke_animate_dashboard {
+ 0% {
+  opacity: 0.5;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+ }
+
+ 50% {
+  opacity: 0;
+  left: -9px;
+  right: -9px;
+  bottom: -9px;
+  top: -9px;
+ }
+
+ 100% {
+  opacity: 0;
+ }
+}
+
+@-moz-keyframes wiloke_animate_dashboard {
+ 0% {
+  opacity: 0.5;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+ }
+
+ 50% {
+  opacity: 0;
+  left: -9px;
+  right: -9px;
+  bottom: -9px;
+  top: -9px;
+ }
+
+ 100% {
+  opacity: 0;
+ }
+}
+
+@-ms-keyframes wiloke_animate_dashboard {
+ 0% {
+  opacity: 0.5;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+ }
+
+ 50% {
+  opacity: 0;
+  left: -9px;
+  right: -9px;
+  bottom: -9px;
+  top: -9px;
+ }
+
+ 100% {
+  opacity: 0;
+ }
+}

@@ -1,0 +1,53 @@
+.icon-box {
+
+	.icon {
+		@extend .c-title;
+		font-size: 60px;
+		line-height: 1;
+		display: inline-block;
+		margin-bottom: 25px;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	p {
+		margin-bottom: 0;
+		
+		a {
+			color: inherit;
+		}
+	}
+
+	&.icon-center {
+		text-align: center;
+	}
+
+	&.icon-left {
+		position: relative;
+		padding-left: 90px;
+
+		.icon {
+			left: 0;
+			top: 0;
+			margin-bottom: 0;
+			position: absolute;
+		}
+	}
+
+	&.icon-right {
+		position: relative;
+		padding-right: 90px;
+		text-align: right;
+
+		.icon {
+			right: 0;
+			top: 0;
+			margin-bottom: 0;
+			position: absolute;
+		}
+	}
+}

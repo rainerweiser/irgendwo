@@ -1,0 +1,23 @@
+#heading_setting, #portfolio_settings_one, #portfolio_settings_two, #portfolio_settings_two, #portfolio_settings_four, #portfolio_settings_five {
+	display: none;
+}
+
+#side-sortables #portfolio_info .cmb_metabox input[type=text], 
+#side-sortables #portfolio_info .cmb_metabox input[type=text], 
+#side-sortables #portfolio_info .cmb_metabox textarea {
+	width: 100%;
+	margin-right: 0;
+}
+
+#side-sortables #portfolio_info .cmb_metabox td{
+	padding: 10px 0;
+	border-width: 0;
+}
+
+#side-sortables #portfolio_info .cmb_metabox .cmb_metabox_description {
+	display: none !important;
+}
+
+#portfolio_single .table.cmb_metabox td {
+	border-width: 0;
+}

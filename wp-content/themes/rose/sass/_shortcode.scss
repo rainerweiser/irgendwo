@@ -1,0 +1,115 @@
+.accordion  {
+
+	.accordion-header {
+		border-bottom: 1px solid #eeeeee;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 0.15em;
+		line-height: 36px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		outline: none;
+		margin-top: 0;
+		margin-bottom: 7px;
+		cursor: pointer;
+		position: relative;
+		@include transition();
+
+		&:hover, &.ui-accordion-header-active {
+			@extend .c-hover;
+		}
+
+		a {
+			color: inherit;
+		}
+
+		.ui-icon {
+			position: absolute;
+			right: 0;
+			font-size: 14px;
+			top: 11px;
+			text-indent: 0;
+		}
+	}
+
+	.accordion-content {
+		padding-top: 15px;
+		margin-bottom: 10px;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.tabs {
+
+	.ui-tabs-nav {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 22px;
+		border-bottom: 1px solid #eeeeee;
+		overflow-x: auto;
+		overflow-y: hidden;
+
+		li {
+			display: inline-block;
+			line-height: 36px;
+
+			a {
+			 	text-transform: uppercase;
+				font-weight: 700;
+				font-size: 12px;
+				letter-spacing: 0.15em;
+				line-height: 36px;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				overflow: hidden;
+				outline: none;
+				margin-top: 0;
+				margin-bottom: 7px;
+				cursor: pointer;
+				position: relative;
+				@extend .c-title;
+				outline: none;
+				text-decoration: none;
+				@include transition();
+
+				&:hover {
+					@extend .c-hover;
+				}
+		 	}
+
+		 	&.ui-tabs-active a {
+		 		@extend .c-hover;
+		 	}
+
+		 	&.ui-state-focus {
+		 		outline: none;
+		 	}
+
+		 	&:after {
+		 		content: '|';
+		 		color: #eeeeee;
+		 		font-size: 14px;
+		 		margin-left: 20px;
+		 		margin-right: 23px;
+		 	}
+
+		 	&:last-child:after {
+		 		content: none;
+		 	}
+		}
+	}
+
+	.ui-tabs-panel {
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+

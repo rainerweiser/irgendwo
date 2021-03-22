@@ -1,0 +1,20 @@
+.client {
+	
+	.owl-item { 
+		text-align: center;
+
+		img {
+			vertical-align: top;
+			max-width: 100%;
+			width: auto;
+		}
+	}
+
+	.owl-prev {
+		left: 0;
+	}
+
+	.owl-next {
+		right: 0;
+	}
+}

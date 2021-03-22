@@ -1,0 +1,2773 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rose\n"
+"POT-Creation-Date: 2016-02-18 07:50+0700\n"
+"PO-Revision-Date: 2016-02-18 07:51+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "404"
+msgstr ""
+
+#: 404.php:8
+msgid "SORRY, PAGE NOT FOUND !"
+msgstr ""
+
+#: 404.php:10 content-none.php:11 content-none.php:19 core/init.php:93
+msgid "Search..."
+msgstr ""
+
+#: 404.php:13
+msgid "Please try your search again or go to."
+msgstr ""
+
+#: 404.php:14
+msgid "Home page"
+msgstr ""
+
+#: comments.php:6
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:37
+msgid "Your name"
+msgstr ""
+
+#: comments.php:38
+msgid "Your email"
+msgstr ""
+
+#: comments.php:39
+msgid "Your website"
+msgstr ""
+
+#: comments.php:42 core/visual/visual_init.php:102
+msgid "Message"
+msgstr ""
+
+#: comments.php:51
+msgid "Leaver a comment"
+msgstr ""
+
+#: comments.php:52
+msgid "Comment"
+msgstr ""
+
+#: content-none.php:4
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:8
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:51
+msgid "Pages:"
+msgstr ""
+
+#: content.php:55
+msgid "Page"
+msgstr ""
+
+#: content.php:68
+msgid "Read more"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:300
+#: core/TGM_Activation_Plugin/plugin_active.php:124
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:301
+#: core/TGM_Activation_Plugin/plugin_active.php:125
+msgid "Install Plugins"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:302
+#: core/TGM_Activation_Plugin/plugin_active.php:126
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:303
+#: core/TGM_Activation_Plugin/plugin_active.php:127
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:305
+#: core/TGM_Activation_Plugin/plugin_active.php:128
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:310
+#: core/TGM_Activation_Plugin/plugin_active.php:129
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:315
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:320
+#: core/TGM_Activation_Plugin/plugin_active.php:134
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:325
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:330
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:335
+#: core/TGM_Activation_Plugin/plugin_active.php:131
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:340
+#: core/TGM_Activation_Plugin/plugin_active.php:132
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:345
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:350
+#: core/TGM_Activation_Plugin/plugin_active.php:136
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:355
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:360
+#: core/TGM_Activation_Plugin/plugin_active.php:137
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:364
+#: core/TGM_Activation_Plugin/plugin_active.php:138
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:365
+msgid "Return to the dashboard"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:366
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2642
+#: core/TGM_Activation_Plugin/plugin_active.php:139
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:367
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2473
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:369
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:370
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:371
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:372
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:471
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:472
+msgid "Update Required"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:574
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:733
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2989
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:824
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:824
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:827
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:827
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:984
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2470
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1660
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1909
+msgid "Required"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1911
+msgid "Recommended"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1925
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1928
+msgid "External Source"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1931
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1946
+msgid "Not Installed"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1949
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1951
+msgid "Active"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1955
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1957
+msgid "Requires Update"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1959
+msgid "Update recommended"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:1965
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2003
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2006
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2009
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2012
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2086
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2092
+msgid "Installed version:"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2099
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2109
+msgid "Available version:"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2130
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2143
+msgid "Plugin"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2144
+msgid "Source"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2145
+msgid "Type"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2148
+msgid "Version"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2149
+msgid "Status"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2192
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2196
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2200
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2263
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2292
+msgid "Install"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2297
+msgid "Update"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2300
+msgid "Activate"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2325
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2327
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2356
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2358
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2438
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2459
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2641
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2922
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2924
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2925
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2928
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2929
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2929
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2935
+msgid "Show Details"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2929
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2935
+msgid "Hide Details"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2930
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2931
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2934
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2935
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2936
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/TGM_Activation_Plugin/class-tgm-plugin-activation.php:2937
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/TGM_Activation_Plugin/plugin_active.php:130
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/plugin_active.php:133
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/plugin_active.php:135
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/TGM_Activation_Plugin/plugin_active.php:140
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/admin/admin_bar.php:19
+msgid "Online Documentation"
+msgstr ""
+
+#: core/admin/admin_bar.php:30
+msgid "Theme Support"
+msgstr ""
+
+#: core/admin/admin_bar.php:41 core/option_theme.php:9
+#: core/option_theme.php:11
+msgid "Rose Options"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:9
+msgid "Heading Option"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:21
+msgid "No Heading"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:22
+msgid "Show Heading"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:30
+msgid "Heading Page"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:37 core/option_theme.php:1003
+msgid "Title Color"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:44 core/admin/config.metaboxes.php:231
+#: core/option_theme.php:481 core/option_theme.php:726
+msgid "Hide Line"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:46
+msgid "Show or show the line under title"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:51
+msgid "Line Color"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:58
+msgid "Description"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:64
+msgid "Height"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:70
+msgid "Font Size Title"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:76
+msgid "Font Size Description"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:82
+msgid "Description Color"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:89
+msgid "Alignment"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:90
+msgid "Select alignment text. Default text left."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:95
+msgid "Text Left"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:96
+msgid "Text Center"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:97
+msgid "Text Right"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:102
+msgid "Background Overlay"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:109
+msgid "Opacity"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:113
+msgid ""
+"The opacity property can take a value from 0.0 - 1.0. The lower value, the "
+"more transparent."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:115
+msgid "0"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:116
+msgid "0.2"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:117
+msgid "0.3"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:118
+msgid "0.4"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:119
+msgid "0.5"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:120
+msgid "0.6"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:121
+msgid "0.7"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:122
+msgid "0.8"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:123
+msgid "0.9"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:124
+msgid "1"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:129
+msgid "Background Image"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:135 core/admin/config.metaboxes.php:143
+msgid "Background Parallax"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:139
+msgid "Default background scroll."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:141
+msgid "Background Scroll"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:142
+msgid "Background Fixed"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:147
+msgid "Background Position"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:151
+msgid "Sets the starting position of a background image."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:153
+msgid "Background Top"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:154
+msgid "Background Bottom"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:155
+msgid "Background Center"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:164 core/option_theme.php:377
+msgid "Portfolio Settings"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:172
+msgid "Content Position"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:173
+msgid "Where do you want to display the content in WordPress Editor?"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:178
+msgid "Top"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:179 core/admin/config.metaboxes.php:201
+#: core/option_theme.php:459 core/option_theme.php:704
+msgid "Bottom"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:184
+msgid "Portfolio Style"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:189 core/option_theme.php:446
+#: core/option_theme.php:691
+msgid "Modern"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:190 core/option_theme.php:447
+#: core/option_theme.php:692
+msgid "Grid"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:191 core/option_theme.php:448
+#: core/option_theme.php:693
+msgid "Masonry"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:195 core/option_theme.php:456
+#: core/option_theme.php:701
+msgid "Caption Position"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:200 core/option_theme.php:458
+#: core/option_theme.php:703
+msgid "Middle"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:205 core/option_theme.php:467
+#: core/option_theme.php:712
+msgid "Categories Position"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:210 core/option_theme.php:469
+#: core/option_theme.php:714
+msgid "Under Title"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:211 core/option_theme.php:470
+#: core/option_theme.php:715
+msgid "Above Title"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:215
+msgid "Categories Filter"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:216
+msgid "Choose the categories that you want to use for this template."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:223 core/option_theme.php:478
+#: core/option_theme.php:723
+msgid "Options"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:224
+msgid ""
+"Show or Hide features filter, category, line, favorite. Default show all."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:229
+msgid "Hide Filter"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:230 core/option_theme.php:211
+#: core/option_theme.php:480 core/option_theme.php:725
+msgid "Hide Category"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:232 core/option_theme.php:482
+#: core/option_theme.php:727
+msgid "Hide Favorite"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:233 core/option_theme.php:483
+#: core/option_theme.php:728
+msgid "Hide Arrow"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:237
+msgid "Show Posts"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:238
+msgid "Show the posts on the page."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:244 core/option_theme.php:498
+#: core/option_theme.php:743
+msgid "Hover Effect"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:245
+msgid "Select the hover effect. Default fade."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:251 core/option_theme.php:501
+#: core/option_theme.php:746
+msgid "Fade"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:252 core/option_theme.php:502
+#: core/option_theme.php:747
+msgid "Push Top"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:253 core/option_theme.php:503
+#: core/option_theme.php:748
+msgid "Push Right"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:254 core/option_theme.php:504
+#: core/option_theme.php:749
+msgid "Push Bottom"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:255 core/option_theme.php:505
+#: core/option_theme.php:750
+msgid "Push Left"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:256 core/option_theme.php:506
+#: core/option_theme.php:751
+msgid "Move Top"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:257 core/option_theme.php:507
+#: core/option_theme.php:752
+msgid "Move Right"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:258 core/option_theme.php:508
+#: core/option_theme.php:753
+msgid "Move Bottom"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:259 core/option_theme.php:509
+#: core/option_theme.php:754
+msgid "Move Left"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:260 core/option_theme.php:510
+#: core/option_theme.php:755
+msgid "Classic"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:261 core/option_theme.php:511
+#: core/option_theme.php:756
+msgid "Zoom In"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:262 core/option_theme.php:512
+#: core/option_theme.php:757
+msgid "Flip Y"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:263 core/option_theme.php:513
+#: core/option_theme.php:758
+msgid "Flip X"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:264 core/option_theme.php:514
+#: core/option_theme.php:759
+msgid "Slide Top"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:265 core/option_theme.php:515
+#: core/option_theme.php:760
+msgid "Slide Right"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:266 core/option_theme.php:516
+#: core/option_theme.php:761
+msgid "Slide Bottom"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:267 core/option_theme.php:517
+#: core/option_theme.php:762
+msgid "Slide Left"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:271 core/option_theme.php:525
+#: core/option_theme.php:770
+msgid "Large devices - Desktops (≥1200px)"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:277 core/admin/config.metaboxes.php:293
+#: core/admin/config.metaboxes.php:309 core/admin/config.metaboxes.php:325
+#: core/option_theme.php:528 core/option_theme.php:544
+#: core/option_theme.php:560 core/option_theme.php:576
+#: core/option_theme.php:773 core/option_theme.php:789
+#: core/option_theme.php:805 core/option_theme.php:821
+msgid "1 Column"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:278 core/admin/config.metaboxes.php:294
+#: core/admin/config.metaboxes.php:310 core/admin/config.metaboxes.php:326
+#: core/option_theme.php:529 core/option_theme.php:545
+#: core/option_theme.php:561 core/option_theme.php:577
+#: core/option_theme.php:774 core/option_theme.php:790
+#: core/option_theme.php:806 core/option_theme.php:822
+msgid "2 Columns"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:279 core/admin/config.metaboxes.php:295
+#: core/admin/config.metaboxes.php:311 core/admin/config.metaboxes.php:327
+#: core/option_theme.php:530 core/option_theme.php:546
+#: core/option_theme.php:562 core/option_theme.php:578
+#: core/option_theme.php:775 core/option_theme.php:791
+#: core/option_theme.php:807 core/option_theme.php:823
+msgid "3 Columns"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:280 core/admin/config.metaboxes.php:296
+#: core/admin/config.metaboxes.php:312 core/admin/config.metaboxes.php:328
+#: core/option_theme.php:531 core/option_theme.php:547
+#: core/option_theme.php:563 core/option_theme.php:579
+#: core/option_theme.php:776 core/option_theme.php:792
+#: core/option_theme.php:808 core/option_theme.php:824
+msgid "4 Columns"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:281 core/admin/config.metaboxes.php:297
+#: core/admin/config.metaboxes.php:313 core/admin/config.metaboxes.php:329
+#: core/option_theme.php:532 core/option_theme.php:548
+#: core/option_theme.php:564 core/option_theme.php:580
+#: core/option_theme.php:777 core/option_theme.php:793
+#: core/option_theme.php:809 core/option_theme.php:825
+msgid "5 Columns"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:282 core/admin/config.metaboxes.php:298
+#: core/admin/config.metaboxes.php:314 core/admin/config.metaboxes.php:330
+#: core/option_theme.php:533 core/option_theme.php:549
+#: core/option_theme.php:565 core/option_theme.php:581
+#: core/option_theme.php:778 core/option_theme.php:794
+#: core/option_theme.php:810 core/option_theme.php:826
+msgid "6 Columns"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:287
+msgid "Medium devices - Desktops ≥992px)."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:303
+msgid "Small devices - Tablets (≥768px)."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:319
+msgid "Extra small devices - Phones (<768px)."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:334 core/option_theme.php:589
+#: core/option_theme.php:834
+msgid "Vertical Space"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:335 core/option_theme.php:591
+#: core/option_theme.php:836
+msgid ""
+"Specifies a left padding in percent of the width of the containing element."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:341 core/option_theme.php:593
+#: core/option_theme.php:838
+msgid "No Vertical"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:342 core/admin/config.metaboxes.php:360
+#: core/option_theme.php:594 core/option_theme.php:612
+#: core/option_theme.php:839 core/option_theme.php:857
+msgid "5px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:343 core/admin/config.metaboxes.php:361
+#: core/option_theme.php:595 core/option_theme.php:613
+#: core/option_theme.php:840 core/option_theme.php:858
+msgid "10px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:344 core/admin/config.metaboxes.php:362
+#: core/option_theme.php:596 core/option_theme.php:614
+#: core/option_theme.php:841 core/option_theme.php:859
+msgid "15px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:345 core/admin/config.metaboxes.php:363
+#: core/option_theme.php:597 core/option_theme.php:615
+#: core/option_theme.php:842 core/option_theme.php:860
+msgid "20px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:346 core/admin/config.metaboxes.php:364
+#: core/option_theme.php:598 core/option_theme.php:616
+#: core/option_theme.php:843 core/option_theme.php:861
+msgid "25px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:347 core/admin/config.metaboxes.php:365
+#: core/option_theme.php:599 core/option_theme.php:617
+#: core/option_theme.php:844 core/option_theme.php:862
+msgid "30px"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:352 core/option_theme.php:607
+#: core/option_theme.php:852
+msgid "Horizontal Space"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:353
+msgid ""
+"Specifies a bottom padding in percent of the width of the containing element"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:359 core/option_theme.php:611
+#: core/option_theme.php:856
+msgid "No Horizontal"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:369 core/option_theme.php:625
+msgid "Pagination"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:374
+msgid "Load More Button"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:375 core/option_theme.php:628
+msgid "Infinite Scroll"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:376 core/option_theme.php:629
+msgid "No Pagination"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:380 core/option_theme.php:637
+#: core/option_theme.php:870
+msgid "Order"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:381
+msgid "Designates the ascending or descending order of the orderby parameter. "
+msgstr ""
+
+#: core/admin/config.metaboxes.php:385 core/option_theme.php:640
+#: core/option_theme.php:873
+msgid "Descending"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:386 core/option_theme.php:641
+#: core/option_theme.php:874
+msgid "Ascending"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:391 core/option_theme.php:649
+#: core/option_theme.php:882
+msgid "Order By"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:392 core/option_theme.php:650
+#: core/option_theme.php:883
+msgid "Sort retrieved projects by parameter."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:396 core/option_theme.php:652
+#: core/option_theme.php:885
+msgid "Date"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:397
+msgid "Menu Order"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:398 core/option_theme.php:653
+#: core/option_theme.php:886 core/option_theme.php:961
+msgid "Title"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:408
+msgid "Portfolio Info"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:414 core/visual/visual_init.php:157
+msgid "Video"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:417
+msgid "Enter video url of this project."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:420
+msgid "Justified Gallery"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:423
+msgid ""
+"Upload images of this project and there images will display in the gallery."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:427
+msgid "Images"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:430
+msgid "Upload images of this project"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:433
+msgid "Released at:"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:438
+msgid "Project Url"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:443
+msgid "Client"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:446
+msgid "Allows use the simple html tags."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:450 core/portfolio/portfolio.php:34
+msgid "Tasks"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:460
+msgid "Header Image Setting"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:466
+msgid "Header Image"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:470
+msgid ""
+"Upload background for heading of this project. Please note that you don't "
+"need upload this image if Hide Project Heading is checked(Appearance->Rose "
+"Options->Portfolio Settings->Hide Project Heading)"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:478
+msgid "Team Settings"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:484 core/admin/config.metaboxes.php:560
+msgid "Position"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:489 core/option_theme.php:100
+msgid "Facebook"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:494 core/option_theme.php:106
+msgid "Twitter"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:499 core/option_theme.php:112
+msgid "Google Plus"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:504 core/option_theme.php:118
+msgid "Pinterest"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:509 core/option_theme.php:124
+msgid "Linkedin"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:514 core/option_theme.php:130
+msgid "RSS"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:519 core/option_theme.php:136
+msgid "Instagram"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:524 core/option_theme.php:142
+msgid "Skype"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:529 core/option_theme.php:148
+msgid "Tumblr"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:534 core/option_theme.php:154
+msgid "Vimeo"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:539 core/option_theme.php:161
+msgid "Yahoo"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:544 core/option_theme.php:167
+msgid "Youtube"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:554
+msgid "Testimonial Settings"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:565
+msgid "Testimonial"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:575
+msgid "Pricing Settings"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:581
+msgid "Price"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:588
+msgid "Unit"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:594
+msgid "Highlight"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:597
+msgid "Check this box if you want to highlight this pricing."
+msgstr ""
+
+#: core/admin/config.metaboxes.php:602
+msgid "Button URL"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:608
+msgid "Button Text"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:611
+msgid "Enter text for this button"
+msgstr ""
+
+#: core/admin/config.metaboxes.php:615
+msgid "Packages"
+msgstr ""
+
+#: core/admin/contactform7.php:37
+msgid "Contact form 7 Option"
+msgstr ""
+
+#: core/admin/contactform7.php:39
+msgid "Click Import button make this contact form look like demo."
+msgstr ""
+
+#: core/admin/contactform7.php:40
+msgid "Import"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_field.php:469
+msgid "Add Group"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_field.php:470
+msgid "Remove Group"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:267
+msgid "Add Row"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:324
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:938
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:1000
+msgid "Remove"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:788
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:839
+msgid "No terms"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:906
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:960
+msgid "Add or Upload File"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:927
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:992
+msgid "Remove Image"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:938
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:1000
+msgid "File:"
+msgstr ""
+
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:938
+#: core/admin/custom-metaboxes/helpers/cmb_Meta_Box_types.php:1000
+#: core/visual/visual_init.php:61
+msgid "Download"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:273
+msgid "Clear"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:274
+msgid "Default"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:275
+msgid "Select Color"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:276
+msgid "Current Color"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:303
+msgid "Select / Deselect All"
+msgstr ""
+
+#: core/admin/custom-metaboxes/init.php:1372
+msgid "Save"
+msgstr ""
+
+#: core/blog/blog.php:35
+msgid "Category: "
+msgstr ""
+
+#: core/blog/blog.php:39
+msgid "Author: "
+msgstr ""
+
+#: core/blog/blog.php:45
+msgid "Tags: "
+msgstr ""
+
+#: core/blog/blog.php:48
+msgid "Daily: "
+msgstr ""
+
+#: core/blog/blog.php:50
+msgid "Monthly: "
+msgstr ""
+
+#: core/blog/blog.php:52
+msgid "Yearly: "
+msgstr ""
+
+#: core/blog/blog.php:54
+msgid "Archives"
+msgstr ""
+
+#: core/blog/blog.php:57
+msgid "Search: "
+msgstr ""
+
+#: core/blog/blog.php:60 core/option_theme.php:187
+msgid "Blog Masonry"
+msgstr ""
+
+#: core/blog/blog.php:133
+msgid "By "
+msgstr ""
+
+#: core/blog/blog.php:152
+msgid "No comment"
+msgstr ""
+
+#: core/blog/blog.php:152
+msgid "1 comment"
+msgstr ""
+
+#: core/blog/blog.php:152
+#, php-format
+msgid "% comment"
+msgstr ""
+
+#: core/blog/blog.php:246 core/option_theme.php:683
+msgid "You may also like"
+msgstr ""
+
+#: core/option_theme.php:20
+msgid "General Settings"
+msgstr ""
+
+#: core/option_theme.php:26
+msgid "Favicon"
+msgstr ""
+
+#: core/option_theme.php:27
+msgid "Upload a favicon for your website."
+msgstr ""
+
+#: core/option_theme.php:33
+msgid "Preloader"
+msgstr ""
+
+#: core/option_theme.php:34
+msgid "Set enable preloader."
+msgstr ""
+
+#: core/option_theme.php:41
+msgid "Header Settings"
+msgstr ""
+
+#: core/option_theme.php:48
+msgid "Logo Image"
+msgstr ""
+
+#: core/option_theme.php:49
+msgid "Upload a logo for your website."
+msgstr ""
+
+#: core/option_theme.php:56
+msgid "Retina Logo Image"
+msgstr ""
+
+#: core/option_theme.php:57
+msgid ""
+"Some newer devices come with \"Retina Display\" which , it will make content "
+"look sharper and more clear. A retina logo image is the same as the normal "
+"logo image, though twice the size and it must be named the exact same as the "
+"regular logo image, though with @2x added onto the end of the name."
+msgstr ""
+
+#: core/option_theme.php:65
+msgid "Header Options"
+msgstr ""
+
+#: core/option_theme.php:66
+msgid "Would you like to add Social/Search box to Header?"
+msgstr ""
+
+#: core/option_theme.php:68
+msgid "Hide Social"
+msgstr ""
+
+#: core/option_theme.php:69
+msgid "Hide Search"
+msgstr ""
+
+#: core/option_theme.php:80
+msgid "Set Padding Top and Padding Bottom For Logo"
+msgstr ""
+
+#: core/option_theme.php:82
+msgid "Allow your users to set the  top and bottom space for logo."
+msgstr ""
+
+#: core/option_theme.php:92
+msgid "Social Settings"
+msgstr ""
+
+#: core/option_theme.php:101 core/option_theme.php:107
+#: core/option_theme.php:113 core/option_theme.php:119
+#: core/option_theme.php:125 core/option_theme.php:131
+#: core/option_theme.php:137 core/option_theme.php:143
+#: core/option_theme.php:149 core/option_theme.php:155
+#: core/option_theme.php:162 core/option_theme.php:168
+msgid "Leave empty If you don't want to display."
+msgstr ""
+
+#: core/option_theme.php:175
+msgid "Blog Settings"
+msgstr ""
+
+#: core/option_theme.php:183
+msgid "Blog Style"
+msgstr ""
+
+#: core/option_theme.php:184
+msgid "Set style for your blog page."
+msgstr ""
+
+#: core/option_theme.php:186
+msgid "Blog Standrad"
+msgstr ""
+
+#: core/option_theme.php:194
+msgid "Blog Sidebar"
+msgstr ""
+
+#: core/option_theme.php:195
+msgid "Set sidebar for blog page. Default is right."
+msgstr ""
+
+#: core/option_theme.php:197
+msgid "No Sidebar"
+msgstr ""
+
+#: core/option_theme.php:198 core/option_theme.php:400
+msgid "Sidebar Left"
+msgstr ""
+
+#: core/option_theme.php:199 core/option_theme.php:401
+msgid "Sidebar Right"
+msgstr ""
+
+#: core/option_theme.php:207
+msgid "Meta box"
+msgstr ""
+
+#: core/option_theme.php:209
+msgid "Hide Author"
+msgstr ""
+
+#: core/option_theme.php:210
+msgid "Hide Date"
+msgstr ""
+
+#: core/option_theme.php:212
+msgid "Hide Comment"
+msgstr ""
+
+#: core/option_theme.php:213
+msgid "Hide Tag"
+msgstr ""
+
+#: core/option_theme.php:214
+msgid "Hide Related Post"
+msgstr ""
+
+#: core/option_theme.php:229
+msgid "Number of posts related"
+msgstr ""
+
+#: core/option_theme.php:236
+msgid "Excerpt Length"
+msgstr ""
+
+#: core/option_theme.php:237
+msgid "Set the length excerpt."
+msgstr ""
+
+#: core/option_theme.php:244
+msgid "Alignment of pagination"
+msgstr ""
+
+#: core/option_theme.php:246
+msgid "Align Left"
+msgstr ""
+
+#: core/option_theme.php:247
+msgid "Align Right"
+msgstr ""
+
+#: core/option_theme.php:248
+msgid "Align Center"
+msgstr ""
+
+#: core/option_theme.php:258
+msgid "Blog Home"
+msgstr ""
+
+#: core/option_theme.php:265 core/option_theme.php:308
+#: core/option_theme.php:342 core/option_theme.php:423
+msgid "Hide Heading"
+msgstr ""
+
+#: core/option_theme.php:266
+msgid ""
+"Check this box if you don't want to display Heading section on blog page."
+msgstr ""
+
+#: core/option_theme.php:272 core/option_theme.php:348
+msgid "Heading Title"
+msgstr ""
+
+#: core/option_theme.php:274
+msgid "Our Blog"
+msgstr ""
+
+#: core/option_theme.php:281 core/option_theme.php:323
+#: core/option_theme.php:365 core/option_theme.php:438
+msgid "Heading Background"
+msgstr ""
+
+#: core/option_theme.php:287 core/option_theme.php:315
+#: core/option_theme.php:356 core/option_theme.php:429
+msgid "Heading Overlay"
+msgstr ""
+
+#: core/option_theme.php:301
+msgid "Blog Archive"
+msgstr ""
+
+#: core/option_theme.php:335 core/option_theme.php:350
+msgid "Blog Single"
+msgstr ""
+
+#: core/option_theme.php:384
+msgid "Portfolio Page"
+msgstr ""
+
+#: core/option_theme.php:385
+msgid "Enter the url of portfolio template."
+msgstr ""
+
+#: core/option_theme.php:391
+msgid "Reveal Items"
+msgstr ""
+
+#: core/option_theme.php:392
+msgid "Your animations will be revealed when the user scrolls."
+msgstr ""
+
+#: core/option_theme.php:397
+msgid "Sidebar Of Single portfolio"
+msgstr ""
+
+#: core/option_theme.php:399
+msgid "Sidebar Full Width"
+msgstr ""
+
+#: core/option_theme.php:409
+msgid "Hide Project Heading"
+msgstr ""
+
+#: core/option_theme.php:416
+msgid "Archive Portfolio Options"
+msgstr ""
+
+#: core/option_theme.php:444 core/option_theme.php:689
+msgid "Style"
+msgstr ""
+
+#: core/option_theme.php:490 core/option_theme.php:735
+msgid "Show Projects"
+msgstr ""
+
+#: core/option_theme.php:491 core/option_theme.php:736
+msgid "Show the post on the page."
+msgstr ""
+
+#: core/option_theme.php:541 core/option_theme.php:786
+msgid "Medium devices - Desktops (≥992px)"
+msgstr ""
+
+#: core/option_theme.php:557 core/option_theme.php:802
+msgid "Small devices - Tablets (≥768px)"
+msgstr ""
+
+#: core/option_theme.php:573 core/option_theme.php:818
+msgid "Extra small devices - Phones (<768px)"
+msgstr ""
+
+#: core/option_theme.php:609 core/option_theme.php:854
+msgid ""
+"Specifies a bottom padding in percent of the width of the containing element."
+msgstr ""
+
+#: core/option_theme.php:627
+msgid "Load More"
+msgstr ""
+
+#: core/option_theme.php:638 core/option_theme.php:871
+msgid "Designates the ascending or descending order of the orderby parameter."
+msgstr ""
+
+#: core/option_theme.php:667
+msgid "Hide Portfolio Related"
+msgstr ""
+
+#: core/option_theme.php:675
+msgid "Related Projects"
+msgstr ""
+
+#: core/option_theme.php:682
+msgid "Related Title"
+msgstr ""
+
+#: core/option_theme.php:900
+msgid "Twitter Settings"
+msgstr ""
+
+#: core/option_theme.php:903
+msgid ""
+"<a href=\"http://blog.wiloke.com/how-to-get-twitter-api/\" target=\"_blank"
+"\">How to get twitter API key?</a>"
+msgstr ""
+
+#: core/option_theme.php:908
+msgid "Comsumer Key"
+msgstr ""
+
+#: core/option_theme.php:914
+msgid "Comsumer Secret"
+msgstr ""
+
+#: core/option_theme.php:920
+msgid "Access Token"
+msgstr ""
+
+#: core/option_theme.php:926
+msgid "Access Token Secret"
+msgstr ""
+
+#: core/option_theme.php:932
+msgid "Cache Interval"
+msgstr ""
+
+#: core/option_theme.php:940
+msgid "Footer Settings"
+msgstr ""
+
+#: core/option_theme.php:947
+msgid "Copyright"
+msgstr ""
+
+#: core/option_theme.php:949
+msgid "COPYRIGHT © 2016 PORTFOLIO. ALL RIGHTS RESERVED"
+msgstr ""
+
+#: core/option_theme.php:955
+msgid "Footer Instagram"
+msgstr ""
+
+#: core/option_theme.php:963
+msgid "FOLLOW US ON INSTAGRAM"
+msgstr ""
+
+#: core/option_theme.php:969
+msgid "Instagram User ID"
+msgstr ""
+
+#: core/option_theme.php:976
+msgid "Instagram Access Token"
+msgstr ""
+
+#: core/option_theme.php:990
+msgid "Color Settings"
+msgstr ""
+
+#: core/option_theme.php:997
+msgid "Paragraph Color"
+msgstr ""
+
+#: core/option_theme.php:1009
+msgid "Hover Color"
+msgstr ""
+
+#: core/option_theme.php:1016
+msgid "Custom Code"
+msgstr ""
+
+#: core/option_theme.php:1023
+msgid "Custom CSS"
+msgstr ""
+
+#: core/option_theme.php:1024
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: core/option_theme.php:1034
+msgid "Custom javascript"
+msgstr ""
+
+#: core/option_theme.php:1035
+msgid "Paste your JS code here."
+msgstr ""
+
+#: core/option_theme.php:1038
+msgid ""
+"jQuery(document).ready(function(){\n"
+"\n"
+"});"
+msgstr ""
+
+#: core/portfolio/portfolio.php:20
+msgid "Descriptions"
+msgstr ""
+
+#: core/portfolio/portfolio.php:27
+msgid "Clients"
+msgstr ""
+
+#: core/portfolio/portfolio.php:38 core/visual/visual_init.php:81
+msgid "Info"
+msgstr ""
+
+#: core/portfolio/portfolio.php:44
+#, php-format
+msgid "+ %s"
+msgstr ""
+
+#: core/portfolio/portfolio.php:47
+#, php-format
+msgid "+ By: %s"
+msgstr ""
+
+#: core/portfolio/portfolio.php:56
+msgid "+ In: "
+msgstr ""
+
+#: core/portfolio/portfolio.php:70
+msgid "Visit project"
+msgstr ""
+
+#: core/portfolio/portfolio.php:86
+msgid "‹ Previous"
+msgstr ""
+
+#: core/portfolio/portfolio.php:92
+msgid "Next ›"
+msgstr ""
+
+#: core/portfolio/portfolio.php:98
+msgid "Home Page Portfolio"
+msgstr ""
+
+#: core/visual/params/param_vc_row.php:4
+msgid "Background overlay"
+msgstr ""
+
+#: core/visual/params/param_vc_row.php:6
+msgid "Add background overlay color for this row"
+msgstr ""
+
+#: core/visual/visual_init.php:31
+msgid "Accelerator"
+msgstr ""
+
+#: core/visual/visual_init.php:32
+msgid "Alarm"
+msgstr ""
+
+#: core/visual/visual_init.php:33
+msgid "Anchor"
+msgstr ""
+
+#: core/visual/visual_init.php:34
+msgid "Archive"
+msgstr ""
+
+#: core/visual/visual_init.php:35
+msgid "Archive Full"
+msgstr ""
+
+#: core/visual/visual_init.php:36
+msgid "Ban"
+msgstr ""
+
+#: core/visual/visual_init.php:37
+msgid "Battery Charge"
+msgstr ""
+
+#: core/visual/visual_init.php:38
+msgid "Battery Empty"
+msgstr ""
+
+#: core/visual/visual_init.php:39
+msgid "Battery Full"
+msgstr ""
+
+#: core/visual/visual_init.php:40
+msgid "Battery Half"
+msgstr ""
+
+#: core/visual/visual_init.php:41
+msgid "Bolt"
+msgstr ""
+
+#: core/visual/visual_init.php:42
+msgid "Book"
+msgstr ""
+
+#: core/visual/visual_init.php:43
+msgid "Book Pen"
+msgstr ""
+
+#: core/visual/visual_init.php:44
+msgid "Book Pencil"
+msgstr ""
+
+#: core/visual/visual_init.php:45
+msgid "Bookmark"
+msgstr ""
+
+#: core/visual/visual_init.php:46
+msgid "Calculator"
+msgstr ""
+
+#: core/visual/visual_init.php:47
+msgid "Calendar"
+msgstr ""
+
+#: core/visual/visual_init.php:48
+msgid "Cards Diamonds"
+msgstr ""
+
+#: core/visual/visual_init.php:49
+msgid "Cards Hearts"
+msgstr ""
+
+#: core/visual/visual_init.php:50
+msgid "Case"
+msgstr ""
+
+#: core/visual/visual_init.php:51
+msgid "Chronometer"
+msgstr ""
+
+#: core/visual/visual_init.php:52
+msgid "Clessidre"
+msgstr ""
+
+#: core/visual/visual_init.php:53
+msgid "Clock"
+msgstr ""
+
+#: core/visual/visual_init.php:54
+msgid "Clockwise"
+msgstr ""
+
+#: core/visual/visual_init.php:55
+msgid "Cloud"
+msgstr ""
+
+#: core/visual/visual_init.php:56
+msgid "Clubs"
+msgstr ""
+
+#: core/visual/visual_init.php:57
+msgid "Compass"
+msgstr ""
+
+#: core/visual/visual_init.php:58
+msgid "Cup"
+msgstr ""
+
+#: core/visual/visual_init.php:59
+msgid "Diamonds"
+msgstr ""
+
+#: core/visual/visual_init.php:60
+msgid "Display"
+msgstr ""
+
+#: core/visual/visual_init.php:62
+msgid "Exclamation"
+msgstr ""
+
+#: core/visual/visual_init.php:63
+msgid "eye"
+msgstr ""
+
+#: core/visual/visual_init.php:64
+msgid "Eye Closed"
+msgstr ""
+
+#: core/visual/visual_init.php:65
+msgid "Female"
+msgstr ""
+
+#: core/visual/visual_init.php:66
+msgid "Flag1"
+msgstr ""
+
+#: core/visual/visual_init.php:67
+msgid "Flag2"
+msgstr ""
+
+#: core/visual/visual_init.php:68
+msgid "Floppydisk"
+msgstr ""
+
+#: core/visual/visual_init.php:69
+msgid "Folder"
+msgstr ""
+
+#: core/visual/visual_init.php:70
+msgid "Folder Multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:71
+msgid "Gear"
+msgstr ""
+
+#: core/visual/visual_init.php:72
+msgid "Geolocalize 1"
+msgstr ""
+
+#: core/visual/visual_init.php:73
+msgid "Globe"
+msgstr ""
+
+#: core/visual/visual_init.php:74
+msgid "Gunsight"
+msgstr ""
+
+#: core/visual/visual_init.php:75
+msgid "Hammer"
+msgstr ""
+
+#: core/visual/visual_init.php:76
+msgid "Headset"
+msgstr ""
+
+#: core/visual/visual_init.php:77 core/visual/visual_init.php:169
+msgid "Heart"
+msgstr ""
+
+#: core/visual/visual_init.php:78
+msgid "Heart Broken"
+msgstr ""
+
+#: core/visual/visual_init.php:79
+msgid "Helm"
+msgstr ""
+
+#: core/visual/visual_init.php:80
+msgid "Home"
+msgstr ""
+
+#: core/visual/visual_init.php:82
+msgid "Ipod"
+msgstr ""
+
+#: core/visual/visual_init.php:83
+msgid "Joypad"
+msgstr ""
+
+#: core/visual/visual_init.php:84
+msgid "Key"
+msgstr ""
+
+#: core/visual/visual_init.php:85
+msgid "Keyboard"
+msgstr ""
+
+#: core/visual/visual_init.php:86
+msgid "Laptop"
+msgstr ""
+
+#: core/visual/visual_init.php:87
+msgid "Life Buoy"
+msgstr ""
+
+#: core/visual/visual_init.php:88
+msgid "Lightbulb"
+msgstr ""
+
+#: core/visual/visual_init.php:89
+msgid "Link"
+msgstr ""
+
+#: core/visual/visual_init.php:90
+msgid "Lock"
+msgstr ""
+
+#: core/visual/visual_init.php:91
+msgid "Lock Open"
+msgstr ""
+
+#: core/visual/visual_init.php:92
+msgid "Magic Mouse"
+msgstr ""
+
+#: core/visual/visual_init.php:93
+msgid "Magnifier"
+msgstr ""
+
+#: core/visual/visual_init.php:94
+msgid "Magnifier Minus"
+msgstr ""
+
+#: core/visual/visual_init.php:95
+msgid "Magnifier Plus"
+msgstr ""
+
+#: core/visual/visual_init.php:96
+msgid "Mail"
+msgstr ""
+
+#: core/visual/visual_init.php:97
+msgid "Mail Multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:98
+msgid "Mail Open"
+msgstr ""
+
+#: core/visual/visual_init.php:99
+msgid "Mail Open Text"
+msgstr ""
+
+#: core/visual/visual_init.php:100
+msgid "Male"
+msgstr ""
+
+#: core/visual/visual_init.php:101
+msgid "Map"
+msgstr ""
+
+#: core/visual/visual_init.php:103
+msgid "Message Multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:104
+msgid "Message TXT"
+msgstr ""
+
+#: core/visual/visual_init.php:105
+msgid "Mixer2"
+msgstr ""
+
+#: core/visual/visual_init.php:106
+msgid "Mouse"
+msgstr ""
+
+#: core/visual/visual_init.php:107
+msgid "Notebook"
+msgstr ""
+
+#: core/visual/visual_init.php:108
+msgid "Notebook pen"
+msgstr ""
+
+#: core/visual/visual_init.php:109
+msgid "Notebook pencil"
+msgstr ""
+
+#: core/visual/visual_init.php:110
+msgid "Paperplane"
+msgstr ""
+
+#: core/visual/visual_init.php:111
+msgid "Pencil ruler"
+msgstr ""
+
+#: core/visual/visual_init.php:112
+msgid "Pencil ruler pen"
+msgstr ""
+
+#: core/visual/visual_init.php:113
+msgid "Photo"
+msgstr ""
+
+#: core/visual/visual_init.php:114
+msgid "Picture"
+msgstr ""
+
+#: core/visual/visual_init.php:115
+msgid "Picture multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:116
+msgid "Pin1"
+msgstr ""
+
+#: core/visual/visual_init.php:117
+msgid "Pin2"
+msgstr ""
+
+#: core/visual/visual_init.php:118
+msgid "Postcard"
+msgstr ""
+
+#: core/visual/visual_init.php:119
+msgid "Postcard multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:120
+msgid "Printer"
+msgstr ""
+
+#: core/visual/visual_init.php:121
+msgid "Question"
+msgstr ""
+
+#: core/visual/visual_init.php:122
+msgid "Rss"
+msgstr ""
+
+#: core/visual/visual_init.php:123
+msgid "Server"
+msgstr ""
+
+#: core/visual/visual_init.php:124
+msgid "Server2"
+msgstr ""
+
+#: core/visual/visual_init.php:125
+msgid "Server cloud"
+msgstr ""
+
+#: core/visual/visual_init.php:126
+msgid "Server download"
+msgstr ""
+
+#: core/visual/visual_init.php:127
+msgid "Server upload"
+msgstr ""
+
+#: core/visual/visual_init.php:128
+msgid "Settings"
+msgstr ""
+
+#: core/visual/visual_init.php:129
+msgid "Share"
+msgstr ""
+
+#: core/visual/visual_init.php:130
+msgid "Sheet"
+msgstr ""
+
+#: core/visual/visual_init.php:131
+msgid "Sheet multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:132
+msgid "Sheet pen"
+msgstr ""
+
+#: core/visual/visual_init.php:133
+msgid "Sheet pencil"
+msgstr ""
+
+#: core/visual/visual_init.php:134
+msgid "Sheet txt"
+msgstr ""
+
+#: core/visual/visual_init.php:135
+msgid "Signs"
+msgstr ""
+
+#: core/visual/visual_init.php:136
+msgid "Smartphone"
+msgstr ""
+
+#: core/visual/visual_init.php:137
+msgid "Spades"
+msgstr ""
+
+#: core/visual/visual_init.php:138
+msgid "Spread"
+msgstr ""
+
+#: core/visual/visual_init.php:139
+msgid "Spread bookmark"
+msgstr ""
+
+#: core/visual/visual_init.php:140
+msgid "Spread text"
+msgstr ""
+
+#: core/visual/visual_init.php:141
+msgid "Spread text bookmark"
+msgstr ""
+
+#: core/visual/visual_init.php:142
+msgid "Star"
+msgstr ""
+
+#: core/visual/visual_init.php:143
+msgid "Tablet"
+msgstr ""
+
+#: core/visual/visual_init.php:144
+msgid "Target"
+msgstr ""
+
+#: core/visual/visual_init.php:145
+msgid "Todo"
+msgstr ""
+
+#: core/visual/visual_init.php:146
+msgid "Todo pen"
+msgstr ""
+
+#: core/visual/visual_init.php:147
+msgid "Todo pencil"
+msgstr ""
+
+#: core/visual/visual_init.php:148
+msgid "Todo txt"
+msgstr ""
+
+#: core/visual/visual_init.php:149
+msgid "Todolist pen"
+msgstr ""
+
+#: core/visual/visual_init.php:150
+msgid "Todolist pencil"
+msgstr ""
+
+#: core/visual/visual_init.php:151
+msgid "Trashcan"
+msgstr ""
+
+#: core/visual/visual_init.php:152
+msgid "Trashcan full"
+msgstr ""
+
+#: core/visual/visual_init.php:153
+msgid "Trashcan refresh"
+msgstr ""
+
+#: core/visual/visual_init.php:154
+msgid "Trashcan remove"
+msgstr ""
+
+#: core/visual/visual_init.php:155
+msgid "Upload"
+msgstr ""
+
+#: core/visual/visual_init.php:156
+msgid "Usb"
+msgstr ""
+
+#: core/visual/visual_init.php:158
+msgid "Watch"
+msgstr ""
+
+#: core/visual/visual_init.php:159
+msgid "Webpage"
+msgstr ""
+
+#: core/visual/visual_init.php:160
+msgid "Webpage img txt"
+msgstr ""
+
+#: core/visual/visual_init.php:161
+msgid "Webpage multiple"
+msgstr ""
+
+#: core/visual/visual_init.php:162
+msgid "Webpage txt"
+msgstr ""
+
+#: core/visual/visual_init.php:163
+msgid "World"
+msgstr ""
+
+#: core/visual/visual_init.php:164
+msgid "Bag"
+msgstr ""
+
+#: core/visual/visual_init.php:165
+msgid "Bag check"
+msgstr ""
+
+#: core/visual/visual_init.php:166
+msgid "Bag cloud"
+msgstr ""
+
+#: core/visual/visual_init.php:167
+msgid "Bag download"
+msgstr ""
+
+#: core/visual/visual_init.php:168
+msgid "Bag minus"
+msgstr ""
+
+#: core/visual/visual_init.php:170
+msgid "Bag refresh"
+msgstr ""
+
+#: core/visual/visual_init.php:171
+msgid "Bag remove"
+msgstr ""
+
+#: core/visual/visual_init.php:172
+msgid "Bag search"
+msgstr ""
+
+#: core/visual/visual_init.php:173
+msgid "Bag upload"
+msgstr ""
+
+#: core/visual/visual_init.php:174
+msgid "Banknote"
+msgstr ""
+
+#: core/visual/visual_init.php:175
+msgid "Banknotes"
+msgstr ""
+
+#: core/visual/visual_init.php:176
+msgid "Basket"
+msgstr ""
+
+#: core/visual/visual_init.php:177
+msgid "Basket check"
+msgstr ""
+
+#: core/visual/visual_init.php:178
+msgid "Basket cloud"
+msgstr ""
+
+#: core/visual/visual_init.php:179
+msgid "Basket download"
+msgstr ""
+
+#: core/visual/visual_init.php:180
+msgid "Basket minus"
+msgstr ""
+
+#: core/visual/visual_init.php:181
+msgid "Basket plus"
+msgstr ""
+
+#: core/visual/visual_init.php:182
+msgid "Basket refresh"
+msgstr ""
+
+#: core/visual/visual_init.php:183
+msgid "Basket remove"
+msgstr ""
+
+#: core/visual/visual_init.php:184
+msgid "Basket search"
+msgstr ""
+
+#: core/visual/visual_init.php:185
+msgid "Basket upload"
+msgstr ""
+
+#: core/visual/visual_init.php:186
+msgid "Bath"
+msgstr ""
+
+#: core/visual/visual_init.php:187
+msgid "Cart"
+msgstr ""
+
+#: core/visual/visual_init.php:188
+msgid "Cart check"
+msgstr ""
+
+#: core/visual/visual_init.php:189
+msgid "Cart cloud"
+msgstr ""
+
+#: core/visual/visual_init.php:190
+msgid "Cart content"
+msgstr ""
+
+#: core/visual/visual_init.php:191
+msgid "Cart download"
+msgstr ""
+
+#: core/visual/visual_init.php:192
+msgid "Cart minus"
+msgstr ""
+
+#: core/visual/visual_init.php:193
+msgid "Cart plus"
+msgstr ""
+
+#: core/visual/visual_init.php:194
+msgid "Cart refresh"
+msgstr ""
+
+#: core/visual/visual_init.php:195
+msgid "Cart remove"
+msgstr ""
+
+#: core/visual/visual_init.php:196
+msgid "Cart Search"
+msgstr ""
+
+#: core/visual/visual_init.php:197
+msgid "Cart Upload"
+msgstr ""
+
+#: core/visual/visual_init.php:198
+msgid "Cent"
+msgstr ""
+
+#: core/visual/visual_init.php:199
+msgid "Colon"
+msgstr ""
+
+#: core/visual/visual_init.php:200
+msgid "Creditcard"
+msgstr ""
+
+#: core/visual/visual_init.php:201
+msgid "Diamond"
+msgstr ""
+
+#: core/visual/visual_init.php:202
+msgid "Dollar"
+msgstr ""
+
+#: core/visual/visual_init.php:203
+msgid "Euro"
+msgstr ""
+
+#: core/visual/visual_init.php:204
+msgid "Franc"
+msgstr ""
+
+#: core/visual/visual_init.php:205
+msgid "Gift"
+msgstr ""
+
+#: core/visual/visual_init.php:206
+msgid "Graph1"
+msgstr ""
+
+#: core/visual/visual_init.php:207
+msgid "Graph2"
+msgstr ""
+
+#: core/visual/visual_init.php:208
+msgid "Graph3"
+msgstr ""
+
+#: core/visual/visual_init.php:209
+msgid "Graph decrease"
+msgstr ""
+
+#: core/visual/visual_init.php:210
+msgid "Graph increase"
+msgstr ""
+
+#: core/visual/visual_init.php:211
+msgid "Guarani"
+msgstr ""
+
+#: core/visual/visual_init.php:212
+msgid "Kips"
+msgstr ""
+
+#: core/visual/visual_init.php:213
+msgid "Lira"
+msgstr ""
+
+#: core/visual/visual_init.php:214
+msgid "Megaphone"
+msgstr ""
+
+#: core/visual/visual_init.php:215
+msgid "Money"
+msgstr ""
+
+#: core/visual/visual_init.php:216
+msgid "Maira"
+msgstr ""
+
+#: core/visual/visual_init.php:217
+msgid "Pesos"
+msgstr ""
+
+#: core/visual/visual_init.php:218
+msgid "Pound"
+msgstr ""
+
+#: core/visual/visual_init.php:219
+msgid "Receipt"
+msgstr ""
+
+#: core/visual/visual_init.php:220
+msgid "Receipt bath"
+msgstr ""
+
+#: core/visual/visual_init.php:221
+msgid "Receipt cent"
+msgstr ""
+
+#: core/visual/visual_init.php:222
+msgid "Receipt dollar"
+msgstr ""
+
+#: core/visual/visual_init.php:223
+msgid "Receipt euro"
+msgstr ""
+
+#: core/visual/visual_init.php:224
+msgid "Receipt franc"
+msgstr ""
+
+#: core/visual/visual_init.php:225
+msgid "Receipt guarani"
+msgstr ""
+
+#: core/visual/visual_init.php:226
+msgid "Receipt kips"
+msgstr ""
+
+#: core/visual/visual_init.php:227
+msgid "Receipt lira"
+msgstr ""
+
+#: core/visual/visual_init.php:228
+msgid "Receipt naira"
+msgstr ""
+
+#: core/visual/visual_init.php:229
+msgid "Receipt pesos"
+msgstr ""
+
+#: core/visual/visual_init.php:230
+msgid "Receipt pound"
+msgstr ""
+
+#: core/visual/visual_init.php:231
+msgid "Receipt rublo"
+msgstr ""
+
+#: core/visual/visual_init.php:232
+msgid "Receipt rupee"
+msgstr ""
+
+#: functions.php:22
+msgid "Rose Menu"
+msgstr ""
+
+#: functions.php:39
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:79
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:210
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:245
+#, php-format
+msgid "%1s at %2s"
+msgstr ""
+
+#: functions.php:250
+msgid "Reply"
+msgstr ""
+
+#: functions.php:252
+msgid "Edit"
+msgstr ""
+
+#: searchform.php:2
+msgid "Hit enter search..."
+msgstr ""

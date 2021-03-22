@@ -1,0 +1,79 @@
+/*
+Theme Name: Rose
+Theme URI: http://wiloke.net/landing/rose/
+Author: wiloke
+Author URI: http://wiloke.net/
+Description: Rose - Minimal Portfolio WordPress Theme
+Version: 1.4
+License: GNU General Public License v2 or later
+Text Domain: rose
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.bg-top{
+    background-position: top center;
+}
+
+.bg-bottom{
+    background-position: bottom center;
+}
+
+.bg-center{
+    background-position: center center;
+}
+
+/*Hier wird die Hintergrudfarbe des Balkens geändert*/
+.cc_container {
+	background: #ffffff none repeat scroll 0 0!important;
+	border-top:1px solid #aaaaaa;
+	box-shadow: -5px 0px 5px 2px #bbbbbb;
+
+
+}
+
+.cc_message {
+	color: #656565;
+}
+
+/*Hier wird die Farbe des Buttons angepasst*/
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+	color: #000!important;
+	background-color: #fff!important;
+
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	    border-top-color: rgba(0, 0, 0, 0.2);
+	    border-right-color: rgba(0, 0, 0, 0.2);
+	    border-bottom-color: rgba(0, 0, 0, 0.2);
+	    border-left-color: rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px !important;
+	font-weight: 700;
+	border-radius: 0 !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 20px;
+	text-align: center;
+	line-height: 38px;
+	min-width: 140px;
+	border-radius: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	}
+
+.cc_btn:hover {
+    background-color: #000 !important;
+    border-color: #000;
+    color: #fff !important;
+    text-decoration: none;
+
+/*Hier wird die Farbe des "Mehr erfahren"-Links angepasst*/
+.cc_message a.cc_more_info {
+color: #cc0000 !important;
+background-color:red !important;
+}
